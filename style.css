@@ -151,7 +151,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 680px) {
 
   /* Header */
   header {
