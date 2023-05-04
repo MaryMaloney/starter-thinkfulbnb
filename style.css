@@ -171,16 +171,17 @@ footer p {
   }
 
   /* -------  Search Form ------- */
+  
+form {
+   display: flex;
+  flex-direction: row;
+  border: 2px solid #ff385c;
+  padding: 15px 10px 0px 10px;
+  justify-content: space-between;
 
-  form {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px 10px 10px 10px;
-  }
+}
 
+ 
   form div {
     display: flex;
     flex-direction: column;
